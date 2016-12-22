@@ -75,6 +75,7 @@ public class MessageBoardActivity extends AppCompatActivity {
                             @Override
                             public void run() {
                                 messageBoard.append(updatedText);
+                                Log.i("MessageBoard", "updated");
                             }
                         });
                     } catch (JSONException e) {
